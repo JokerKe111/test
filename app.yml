@@ -1,0 +1,9 @@
+jhipster:
+  logging:
+    use-json-format: true
+    logstash: # Forward logs to logstash over a socket, used by LoggingConfiguration
+      enabled: true
+      host: logstash-jhipster
+      port: 5000
+      queue-size: 512
+
